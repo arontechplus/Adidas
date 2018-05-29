@@ -86,3 +86,10 @@ hr {
     background-color: black;
     border:0;
 }
+#main-text {
+    font-family:"texgyreadventor-bold";
+    font-size:1em;
+    margin-left:2rem;
+    margin-top:-2em;
+
+}

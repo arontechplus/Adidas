@@ -94,6 +94,7 @@ nav ul li a:hover {
 #imageslider {
     margin:0;
     overflow:hidden;
+    width:100%;
 }
 #imageslider figure .slide {
     margin: 0;
