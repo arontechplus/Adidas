@@ -57,60 +57,25 @@ nav ul li a:hover {
 
 
 #content {
-    height:100%;
+    height:120rem;
     width:100%;
-    margin:0;
-    padding:0;
+    background-color: rgb(255, 255, 255);
 }
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left:0;
-    }
-    25% {
-        left:-100%;
-    }
-    45% {
-        left:-100%;
-    }
-    50% {
-        left:-200%;
-    }
-    70% {
-        left:-200%;
-    }
-    75% {
-        left:-300%;
-    }
-    95% {
-        left:-300%;
-    }
-    100% {
-        left:-400%;
-    }
+#articles {
+    height:96%;
+    margin-top:3%;
+    background-color: rgb(255, 255, 255);
+    width:90%;
+    margin-left:5%;
 }
-#imageslider {
-    margin:0;
-    overflow:hidden;
+.articles-row {
+    width:100%;
+    height:13%;
+    margin-bottom: 5%;
+    background-color:black;
 }
-#imageslider figure .slide {
-    margin: 0;
-    width:20%;
-    float: left;
-}
-#imageslider figure {
-    margin:0;
-    width:500%;
-    animation:slider 20s infinite;
-    left:0%;
-    position: relative;
-    margin:0;
-
-}
-.slide {
-    margin: 0;
-    width:300%;
-    float: left;
+#footer {
+    height:10rem;
+    background-color:rgb(255, 255, 255);
+    width:100%;
 }
